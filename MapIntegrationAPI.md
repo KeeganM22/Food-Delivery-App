@@ -23,7 +23,7 @@ App developed in Mobile Application class. A food delivery app
 
 ## Summary
 
-Choosing a map sesvice API for location-based deatures in our mobile application
+Choosing a map service API for location-based features in our mobile application
 
 ### Issue 
 The mobile app requires location-based services like:
