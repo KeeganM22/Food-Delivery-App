@@ -1,13 +1,13 @@
 # Food-Delivery-App
+
 App developed in Mobile Application class. A food delivery app
 
+# Assignment Architectural Decisions
 
-# Assignment Architectural Decisions 
-
- - [Summary](#summary)
-  - [Issue](#issue)
-  - [Decision](#decision)
-  - [Status](#status)
+- [Summary](#summary)
+- [Issue](#issue)
+- [Decision](#decision)
+- [Status](#status)
 - [Details](#details)
   - [Assumptions](#assumptions)
   - [Constraints](#constraints)
@@ -25,16 +25,17 @@ App developed in Mobile Application class. A food delivery app
 
 Choosing a map service API for location-based features in our mobile application
 
-### Issue 
+### Issue
+
 The mobile app requires location-based services like:
 
 - Displaying restaurants or food outlets on a map.
 - Providing delivery route visualization.
 - Offering location-based search and recommendations.
 
-### Decision 
-Opted for Google Maps API.
+### Decision
 
+Opted for Google Maps API.
 
 ### Status
 
@@ -61,7 +62,6 @@ Decided on Google Maps API. Will re-evaluate if project requirements change or n
 - Here: Another alternative with extensive features but might have limitations in certain regions compared to Google Maps.
 - After considering these options, Google Maps API was selected due to its widespread recognition, ease of integration, and comprehensive features.
 
-
 ### Argument
 
 Google Maps is a globally recognized platform with detailed maps of most regions. The API provides a myriad of features, such as place search, route planning, and geolocation. The vast amount of documentation, tutorials, and community support makes integration and troubleshooting easier.
@@ -79,12 +79,18 @@ Google Maps is a globally recognized platform with detailed maps of most regions
 The choice of Google Maps API may affect other location-based services or integrations we might consider in the future.
 
 ### Related requirements:
+
 - Reliable map data for user navigation and location services.
+
 ### Related artifacts:
+
 - Will affect all app sections that utilize map or location-based features.
+
 ### Related principles:
+
 - Prioritize user experience and familiarity.
 - Scalability and reliability.
 
 ## Notes
+
 While Google Maps is a preferred choice now, always be aware of the usage limits and potential costs. Monitoring and optimization will be crucial as the app gains more users.
