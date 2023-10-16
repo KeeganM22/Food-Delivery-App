@@ -56,28 +56,31 @@ Refer to the section labled "Decision" . Open to re-evaluation as problems arise
 
 ### Argument
 
-Our solution mixes the best of both worlds, allowing 
+Our solution mixes the best of both worlds, allowing for less calls for non-sensitive information and protection for PII and payment information. It also reduces the amount of storage needed locally as it will only be used to store nescessary data. Sensitive data will be encrypted locally.
 
 ### Implications
 
--Faster time-to-market due to cross-platform development.
--A wide range of libraries and plugins available.
--Potential challenges may arise when needing very platform-specific features or optimizations, though React Native's capability to integrate native modules can address this.
+-More time will need to be dedicated to implementing this properly.
+-We may not be able to implement these features properly.
+-Potential problems may come from our lack of experience in storage, encryption, and safe data storage practices.
+-We will have to do a ton on research about data storage best practices, and how well it meshes with our tech stack.
 
 ## Related
 
 ### Related decisions:
 
-The choice of React Native can influence the libraries and plugins we opt for in later stages, especially for UI components and state management.
+This choice may heavily impact how much time we can allocate to other (potentiall more critical) aspects of the project. It will also affect how we implement data storage with Mongo DB, in addition to potentially conflicting with our tech stack.
 
 ### Related requirements:
--Need for a native-feel app.
--Desire for quick development and prototyping.
+-Need solid data protection measures
+-Need a definitive answer on where data will be stored
 ### Related artifacts:
 -Will affect all codebases, components, and modules developed for the app.
 ### Related principles:
--Prioritize user experience.
--Efficiency in development.
+-Application security
+-Data security
+-Ease of development
+-Data storage
 
 ## Notes
-React Native offers the "Learn once, write anywhere" principle, which can be beneficial for future expansions or platforms.
+This will greatly increase our understanding of data protection and how databases work in the wild.
