@@ -1,4 +1,4 @@
-Summary:
+## Summary
 Determining an optimal navigation strategy for a seamless and intuitive user experience in our mobile application.
 
 Issue:
