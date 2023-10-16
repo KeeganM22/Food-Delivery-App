@@ -47,6 +47,7 @@ Decided on Google Maps API. Will re-evaluate if project requirements change or n
 - Users are familiar with Google Maps and will find it intuitive.
 - We will have access to reliable internet connectivity for fetching map data.
 - The API will be primarily used for Android, as per project specifications.
+- Android devices have the harware capabilities to support the Google Maps API.
 
 ### Constraints
 
